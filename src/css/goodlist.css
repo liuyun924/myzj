@@ -1,0 +1,127 @@
+#logo{
+	background-color: #fff;
+}
+main .container{
+	padding-top: 20px;
+	height: 1260px;
+}
+main .container .listleft{
+	width: 150px;
+	height: 100%;
+	float: left;
+}
+main .container .listleft ul li{
+	height: 40px;
+	line-height: 40px;
+	background-color: #fff;
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+main .container .listleft ul li:first-child{
+	color: orange;
+}
+main .container .listright{
+	float: left;
+	width: 800px;
+	margin-left: 20px;
+
+}
+main .container .listright .listtop{
+	border: 1px solid #ccc;
+}
+main .container .listright .listtitle{
+	height: 30px;
+	line-height: 30px;
+	background: #ccc;
+	padding-left: 20px;
+}	
+main .container .listright .listtitle ul li{
+	float: left;
+	font-size: 12px;
+}
+
+main .container .listright .listtop .listclass{
+	background-color: #fff;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+main .container .listright .listtop .listclass ul li{
+	height: 36px;
+	line-height: 36px;
+	border-bottom: 1px dotted #ccc;
+	font-size: 12px;
+}
+main .container .listright .listtop .listclass ul li a{
+	color:blue;
+	display: inline-block;
+	margin-left: 20px;
+}
+main .container .listright .listmenu{
+	height: 40px;
+	width: 100%;
+	padding-top: 10px;
+}
+
+main .container .listright .listmenu .leftul{
+	float: left;
+	background-color: #ccc;
+}
+main .container .listright .listmenu .leftul li:first-child{
+	background-color: orange;
+}
+main .container .listright .listmenu li{
+	float: left;
+	padding: 3px 10px 6px 10px;
+}
+
+main .container .listright .listmenu .rightul{
+	float:right;
+}
+
+main .container .listright .listmenu .rightul li:first-child span{
+	color:orange;
+}
+main .container .listright .goodlist ul{
+	border: 1px solid #ccc;
+	border-top: 2px solid orange;
+
+	width: 100%;
+	height: 940px;
+	background-color: #fff;
+
+}
+main .container .listright .goodlist ul li{
+	width: 25%;
+	padding: 10px;
+	float: left;
+}
+main .container .listright .goodlist ul li img{
+	width: 100%;
+}
+main .container .listright .goodlist ul li p{
+	font-size: 12px;
+}
+main .container .listright .goodlist ul li span{
+	color:red;display: block;margin-top: 5px;
+}
+
+main .container .listright .goodlist li button{
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+main .container .listright .goodlist ul li button.jrgwc{
+	background-color: orange;
+}
+main .container .listright .listpage ul{
+	margin:20px;
+}
+main .container .listright .listpage ul li{
+	float: left;
+	margin-right: 20px;
+	padding: 0 15px;
+	border: 1px solid #ccc;
+}
+main .container .listright .listpage ul li:nth-child(2){
+	background-color: orange;
+}

@@ -1,0 +1,183 @@
+#logo{
+	background-color: #fff;
+}
+main .container .bigbanner{
+	width: 1090px;
+	height: 350px;
+	overflow: hidden;
+	position: relative;
+}
+main .container .bigbanner>ul{
+	width: 3270px;
+	position: absolute;
+}
+main .container .bigbanner>ul>li{
+	float: left;
+
+}
+main .container .smallbanner{
+	margin-top: 20px;
+	height: 150px;
+}
+main .container .smallbanner ul li{
+	float: left;
+
+}
+main .container .smallbanner ul li:nth-child(2){
+	margin-left: 8px;
+}
+main .container .smallbanner ul li:last-child{
+	float: right;
+}
+
+#secA .container{
+	padding-top: 10px;
+}
+#secA .container .title{
+	height: 60px;
+}
+#secA .container .lineleft{
+	height: 1px;
+	background-color: #ccc;
+	float: left;
+	width: 450px;
+	margin-top: 20px;
+}
+#secA .container .lineright{
+	height: 1px;
+	background-color: #ccc;
+	float: right;
+	width: 450px;
+	margin-top: 20px;
+}
+#secA .container .midwen{
+	float: left;
+	margin-left: 30px;
+}
+#secA .container .midwen h4{
+	font-size:28px;
+
+}
+#secA .container .midwen h4 span{
+	color:orange;
+}
+#secA .container .midwen p{
+	text-align: center;
+}
+#secA .container .content{
+	height: 262px;
+	width: 100%;
+	margin-top: 20px;
+	
+	border-radius: 2px;
+	margin-bottom: 20px;
+}
+#secA .container .content .box{
+	height: 262px;
+	border:1px solid orange;
+}
+#secA .container .content .box .boxleft{
+	float: left;
+	width:50%;
+}
+#secA .container .content .box .boxleft img{
+	width:100%;
+}
+#secA .container .content .box .boxright{
+	float: right;
+	width: 50%;
+	height: 262px;
+	background: #fff;
+	padding: 10px;
+}	
+#secA .container .content .box .boxright h5{
+	line-height: 40px;
+	font-size:28px;
+	border-bottom: 1px solid #ccc;
+}
+#secA .container .content .box .boxright p{
+	margin-top: 5px;
+	font-size: 14px;
+	margin-bottom: 120px;
+}
+#secA .container .content .box .boxright span{
+	color:red;
+	font-size:24px;
+	display: inline-block;
+	margin-left: 40px;
+}
+#secA .container .content .box .boxright a{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	margin-left: 250px;
+	background-color: orange;
+	border-radius: 60px;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+#secB .container{
+	padding-top: 10px;
+}
+#secB .container .title{
+	height: 60px;
+}
+#secB .container .lineleft{
+	height: 1px;
+	background-color: #ccc;
+	float: left;
+	width: 450px;
+	margin-top: 20px;
+}
+#secB .container .lineright{
+	height: 1px;
+	background-color: #ccc;
+	float: right;
+	width: 450px;
+	margin-top: 20px;
+}
+#secB .container .midwen{
+	float: left;
+	margin-left: 30px;
+}
+#secB .container .midwen h4{
+	font-size:28px;
+
+}
+#secB .container .midwen h4 span{
+	color:orange;
+}
+#secB .container .midwen p{
+	text-align: center;
+}
+#secB .container .box{
+	width: 100%;
+	height: 350px;
+}
+#secB .container .box .boxleft{
+	width: 33%;
+	float: left;
+	background-color: #ccc;
+}
+#secB .container .box .boxleft ul li img{
+	width: 100%;
+	border:1px solid orange;
+	margin-top: 2px;
+}
+#secB .container .box .boxright{
+	width: 66%;
+	float: right;
+}
+#secB .container .box .boxright ul li{
+	float: left;
+	width: 25%;
+}
+#secB .container .box .boxright ul li img{
+	width: 100%;
+	border:1px solid orange;
+	margin-top: 6px;
+
+}
+
