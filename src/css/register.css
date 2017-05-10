@@ -1,0 +1,47 @@
+main .container .mcont{
+	height: 500px;
+}
+main .container .mcont .mtable{
+	float: left;
+	margin-left: 50px;
+}
+
+main .container .mcont .mpic{
+	float: right;
+	margin-right: 100px;
+}
+
+main .container .mtop ul .register{
+	border-top:2px solid orange;
+	
+}
+main .container .mcont .mtable form .dxyzm{
+	width: 60px;
+	margin-right: 10px;
+}
+main .container .mcont .mtable form .hqsjyzm{
+	background-color: orange;
+	color:#fff;
+	border:0 none;
+	padding: 5px;
+}
+main .container .mcont .mtable form .zhuce{
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin:10px 40px;
+	border:0 none;
+	background-color: orange;
+	color: #fff;
+	margin-left: 100px;
+}
+main .container .mcont .mtable form .moren{
+	margin-left: 100px;
+}
+main .container .mcont .mtable form .sjh{
+	width: 250px;
+}
+main .container .mcont .mtable .wailink{
+	margin-left: 100px;
+}
