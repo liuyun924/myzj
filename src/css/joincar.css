@@ -1,0 +1,102 @@
+
+#logo{background-color: #fff;}
+
+.container{
+	width: 80%;
+}
+
+main{
+	background-color: #fff;
+}
+
+main .container .list .listul{
+	height:30px;
+	padding:10px;
+}
+main .container .list .listul li{
+	float: left;
+	margin-right: 40px;
+}
+
+
+main .container .contont{
+	height: 500px;
+	border:1px solid #ccc;
+	margin-top: 10px;
+}
+main .container .contont .contleft{
+	width: 400px;
+	float: left;
+
+}
+main .container .contont .contleft .bigpic{
+	
+}
+main .container .contont .contleft .smallpic{
+	position: relative;
+}
+main .container .contont .contleft .smallpic .clonepic{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+main .container .contont .contleft .smallpic img{
+	width: 80px;
+	display: inline-block;
+	border: 1px solid orange;
+	margin-left: 40px;
+}
+main .container .contont .contmd{
+	float: left;
+	width: 500px;
+	height: 100%;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	line-height: 40px;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+main .container .contont .contmd .huangou{
+	margin-left: 80px;
+}
+main .container .contont .contmd .huangou img{
+	width:60px;
+}
+main .container .contont .contmd .buy{
+	padding-left: 40px;
+	border-top: 1px solid #ccc;
+	padding-top: 30px;
+	height: 80px;
+}
+main .container .contont .contmd .buy input{
+	width:40px;
+	height: 30px;
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+}
+main .container .contont .contmd .buy button{
+	width:100px;
+	height: 30px;
+	background-color: orange;
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	color:#fff;
+	border:0 none; 
+
+}
+main .container .contont .contmd .buy span{
+	width:120px;
+	height: 30px;
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	padding: 2px 10px;
+	float: left;
+	line-height: 25px;
+	color:orange;
+}

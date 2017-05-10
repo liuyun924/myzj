@@ -1,0 +1,32 @@
+main .container .mcont{
+	height: 400px;
+}
+main .container .mcont .mpic{
+	float: left;
+}
+main .container .mtop ul .login{
+	border-top:2px solid orange;
+	
+}
+main .container .mtop ul .login a{
+	color:orange;
+
+}
+main .container .mcont .mtable{
+	float: right;
+	margin-right: 100px;
+}
+main .container .mcont .mtable form .denglu{
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin:10px 40px;
+	border:0 none;
+	background-color: orange;
+	color: #fff;
+}
+
+
+
+
