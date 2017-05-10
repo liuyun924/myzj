@@ -9,7 +9,7 @@ require(['config'],function(){
 			$('footer').load('../html/footer.html');
 
 
-			
+			// 实现加入购物车
 
 		})
 

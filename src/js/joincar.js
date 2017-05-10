@@ -23,9 +23,10 @@ require(['config'],function(){
 
 			// 实现JS效果
 
-			var $gwcnum=$('#sidebar').find('input');
-			// 点击事件
+			
+			// 点击加入购物车事件
 			$('#jrgwc').on('click',function(){
+				var $gwcnum=$('#sidebar').find('input');
 				// 改变购物车的数量
 				var nownum=Number($gwcnum.val());
 				var $buynum=Number($('#buynum').val());
@@ -48,7 +49,10 @@ require(['config'],function(){
 				})
 			})
 
-		})
+
+
+
+		});
 		
 	});
 });

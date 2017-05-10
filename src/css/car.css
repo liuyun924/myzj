@@ -1,0 +1,165 @@
+.container{
+	width: 70%;
+}
+
+main .container h2{
+	padding:20px;
+}
+main .container h2 p{
+	float: right;
+	font-size: 14px;
+	margin-top: 10px;
+}
+main .container h2 p a{
+	color: orange;
+}
+main .container section{
+	background-color:#ececec;
+}
+main .container section span{
+	display: inline-block;
+	font-size: 14px;
+	margin-right: 40px;
+}
+main .container section .goodstop{
+	background-color: #ccc;
+	padding: 10px 20px;
+}
+main .container section .goodstop span:first-child{
+	font-size: 18px;
+}
+main .container section .goodstop span:nth-child(2){
+	margin-right: 280px;
+	margin-left: -20px;
+}
+
+main .container section .goods{
+	background-color: #fff;
+}
+main .container section .goods li{
+	padding: 10px 20px 0px 40px;
+	line-height: 50px;
+}
+
+main .container section .goods span:nth-child(1) img{
+ height: 50px;
+}
+main .container section .goods span:nth-child(2){
+
+}
+main .container section .goods span:nth-child(3){
+float: right;
+margin-right: 50px;
+margin-left: 10px;
+}main .container section .goods span:nth-child(4){
+float: right;
+margin-right: 50px;
+margin-left: 20px;
+color: red;
+}main .container section .goods span:nth-child(5){
+float: right;
+margin-right: 50px;
+margin-left: 20px;
+font-weight: bold;
+border: 1px solid #ccc;
+width: 41px;
+
+}
+main .container section .goods span:nth-child(6){
+float: right;
+margin-right: 50px;
+margin-left: 20px;
+}
+main .container section .goods span i{
+	font-style: normal;
+	display: inline-block;
+	border: 1px solid #ccc;
+	width: 15px;
+	text-align: center;
+}
+
+
+main .container section .goodsbottom{
+	padding-left: 600px;
+	background-color: #ccc;
+	height: 40px;
+	line-height: 40px;
+}
+main .container section .goodsbottom i{
+display: inline-block;
+font-style: normal;
+color: orange;
+margin: 0 2px;
+}
+
+main .container section .count{
+	margin-top: 20px;
+	background-color: #fff;
+
+	padding-top: 20px;
+	border: 1px solid #ccc;
+
+}
+main .container section .count .youhui{
+	height: 60px;
+	line-height: 40px;
+	border-bottom: 1px solid #ccc;
+		padding-left: 40px;
+}
+main .container section .count .youhui input{
+	height: 40px;
+	width: 200px;
+	float: left;
+}
+main .container section .count .youhui .useyhq{
+	background-color: orange;
+	width: 60px;
+	height: 40px;
+	color: #fff;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	border:0 none;
+}
+main .container section .count .youhui span:nth-child(3){
+	margin-left: 300px;
+	margin-right: 100px;
+}
+main .container section .count .youhui i{
+	color: orange;
+	font-style: normal;
+	display: inline-block;
+	margin:0 5px;
+}
+
+main .container section .count .total{
+	padding-left: 40px;
+	line-height: 55px;
+	height: 60px;
+}
+main .container section .count .total a{
+	font-size: 12px;
+	text-decoration: underline;
+	color: blue;
+	display: inline-block;
+}
+main .container section .count .total span:nth-child(2){
+	margin-left:400px;
+}
+main .container section .count .total i{
+	font-style: normal;
+	display: inline-block;
+	margin:0 2px;
+	color: orange;
+}
+main .container section .count .total span:nth-child(3){
+	font-size: 24px;
+}
+main .container section .count .total button{
+	display: inline-block;
+	float: right;
+	height: 100%;
+	width: 100px;
+	border: 0 none;
+	background-color: orange;
+}
