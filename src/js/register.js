@@ -6,7 +6,6 @@ require(['config'],function(){
 
 			$('header').load('../html/header.html #top');
 			$('footer').load('../html/footer.html #foot');
-			$('#logo').load('../html/loginlogo.html');
 
 			$('#submit').click(function(){
 				$.post('../api/register.php',{

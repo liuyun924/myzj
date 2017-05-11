@@ -1,6 +1,6 @@
 require(['config'],function(){
 	// 这里不能保证jquery,gdszoom,common的加载顺序
-	require(['jquery','gdszoom'],function(){
+	require(['jquery','gdszoom','cookie'],function(){
 		$(function(){
 			$('header').load('../html/header.html');
 			$('nav').load('../html/nav.html');
@@ -35,7 +35,7 @@ require(['config'],function(){
 				// 复制图片
 				var $cloneimg=$('<div/>');
 				$cloneimg.addClass('clonepic');
-				console.log( $cloneimg);
+				// console.log(goodsNum);
 				$cloneimg.append($('.smallpic img').clone())
 				$('.smallpic').append($cloneimg);
 
@@ -47,6 +47,58 @@ require(['config'],function(){
 				},300,function(){
 					$cloneimg.remove();
 				})
+			})
+
+
+			// 写入cookie
+
+			// 获取需要元素
+			var $title=$('.contmd h3').html();
+			var $price=$('.contmd  span').html();
+				$price=Number($price);
+			var $goodimg=$('.contleft .bigpic img').attr('src');
+
+			
+
+			
+
+		var shoppingCar=$.cookie('shoppingCar');
+			shoppingCar=shoppingCar? JSON.parse(shoppingCar):[];
+
+			var $contont=$('.contont');
+			$('.contont').on('click',function(e){
+				var target=e.target;
+
+				var $goodsNum=$('#sidebar').find('input').val();
+					$goodsNum=Number($goodsNum);
+				if(target.id==='jrgwc'){
+
+					// 判断是否存在当前商品
+					var hasGood=false;
+
+					if(shoppingCar.length>0){
+
+						hasGood=true;
+
+						shoppingCar[0].num++;
+					}
+
+
+					console.log($price,$title,$goodimg,$goodsNum);
+					if(!hasGood){
+						var goods={
+						img:$goodimg,
+						title:$title,
+						price:$price,
+						num:$goodsNum
+						}
+						shoppingCar.push(goods);
+					}
+					$.cookie.raw = true;
+					$.cookie('shoppingCar',JSON.stringify(shoppingCar),{ expires: 7, path: '/' })
+					console.log($.cookie())
+				}
+
 			})
 
 

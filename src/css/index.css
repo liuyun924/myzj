@@ -1,6 +1,15 @@
 #logo{
 	background-color: #fff;
 }
+#top .container .tleft ul .ta{
+	background-color: #fff;
+	border:1px solid #666;
+	border-bottom:1px solid #fff;
+	
+}
+#top .container .tleft ul .ta a{
+	color:orange;
+}
 main .container .bigbanner{
 	width: 1090px;
 	height: 350px;

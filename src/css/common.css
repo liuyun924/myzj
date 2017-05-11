@@ -34,7 +34,6 @@ a{
 }
 
 
-
 #top{
 	width: 100%;
 	border-bottom: 1px solid #ccc;
@@ -54,18 +53,7 @@ a{
 	padding: 10px 20px 5px 20px;
 	font-size: 14px;
 }
-#top .container .tleft ul .ta{
-	background-color: #fff;
-	border:1px solid #666;
-	border-bottom:1px solid #fff;
-	
-}
-#top .container .tleft ul .ta a{
-	color:orange;
-}
-#top .container .tleft ul li a{
-	/*font-weight: bold;*/
-}
+
 #top .container .tleft ul li a:hover{
 	color: orange;
 }

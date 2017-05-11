@@ -7,7 +7,6 @@ require(['config'],function(){
 			$('header').load('../html/header.html  #top');
 	     
 			$('footer').load('../html/footer.html  #foot')
-			$('#logo').load('../html/loginlogo.html');
 			//连接数据库
 
 $('#loginbtn').click(function(){
