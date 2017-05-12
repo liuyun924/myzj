@@ -18,7 +18,7 @@ gulp.task('compileSass',function(){
 	.pipe(sass({outputStyle:'compact'}).on('error', sass.logError))
 
 	// 把编译后的文件输出
-	.pipe(gulp.dest('src/scss'));
+	.pipe(gulp.dest('src/css'));
 });
 
 gulp.task('change',function(){
@@ -27,16 +27,16 @@ gulp.task('change',function(){
 		server: "./src",
 
 		// 代理服务器
-		// proxy:'http://localhost/ajax/',
+		// proxy:'http://localhost/myzj/src',
 
 		// 自定义端口
-		// port:999,
+		// port:80,
 
 		// 监听文件修改，自动刷新浏览器
 		files:['./src/**.html','./src/css/*.css']
 	});
 
 	// 监听sass文件修改，执行编译sass文件
-	gulp.watch('src/sass/*.scss',['compileSass']);
+	// gulp.watch('src/sass/*.scss',['compileSass']);
 	
 });

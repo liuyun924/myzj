@@ -1,6 +1,6 @@
 require(['config'],function(){
 
-	require(['jquery'],function(){
+	require(['jquery','lazyload'],function(){
 		$(function(){
 			// html结构
 			$('header').load('../html/header.html');
@@ -11,7 +11,10 @@ require(['config'],function(){
 
 			// 实现加入购物车写入cookie
 
-			
+			$('img').lazyload({
+				threshold:1,
+				effect:"fadeIn"
+			});
 
 		})
 

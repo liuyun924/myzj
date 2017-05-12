@@ -1,0 +1,268 @@
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  .container {
+    height: 40px;
+    .tleft {
+      float: left;
+      ul {
+        padding-top: 5px;
+        .ta {
+          background-color: #fff;
+          border: 1px solid #666;
+          border-bottom: 1px solid #fff;
+          a {
+            color: orange;
+          }
+        }
+        li {
+          a {
+            font-weight: bold;
+            &:hover {
+              color: orange;
+            }
+          }
+        }
+        .shouji {
+          position: relative;
+          &:hover {
+            border: 1px solid orange;
+            background-color: #fff;
+            border-bottom: 2px solid #fff;
+            img {
+              display: block;
+            }
+          }
+          img {
+            display: none;
+            position: absolute;
+            top: 35px;
+            left: -1px;
+            border: 1px solid orange;
+          }
+        }
+      }
+      & > ul {
+        & > li {
+          float: left;
+          padding: 10px 20px 5px 20px;
+          font-size: 14px;
+        }
+      }
+    }
+    .tright {
+      float: right;
+      & > ul {
+        padding-top: 10px;
+        & > li {
+          & > a {
+            display: block;
+            padding: 0 8px;
+            border-left: 1px solid #666;
+            color: #666;
+          }
+        }
+        & > .dingdan {
+          & > ul {
+            & > .wddd {
+              margin-bottom: 8px;
+            }
+          }
+        }
+        & > .kefu {
+          & > ul {
+            & > .wdkf {
+              margin-bottom: 8px;
+            }
+          }
+        }
+      }
+      ul {
+        li {
+          float: left;
+          font-size: 14px;
+          color: #666;
+          padding: 0 2px;
+          .jh {
+            border: 0;
+            color: orange;
+          }
+        }
+        .dingdan {
+          position: relative;
+          ul {
+            display: none;
+            border: 1px solid orange;
+            position: absolute;
+            top: 0;
+            left: 5px;
+            background-color: #fff;
+            li {
+              font-size: 12px;
+              margin-top: 5px;
+            }
+          }
+          &:hover {
+            ul {
+              display: block;
+            }
+          }
+        }
+        .kefu {
+          position: relative;
+          ul {
+            display: none;
+            border: 1px solid orange;
+            position: absolute;
+            top: 0;
+            left: 5px;
+            background-color: #fff;
+            li {
+              font-size: 12px;
+              margin-top: 5px;
+            }
+          }
+          &:hover {
+            ul {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+main {
+  width: 100%;
+  background-color: #ececec;
+  .container {
+    padding-top: 20px;
+    .mtop {
+      width: 500px;
+      margin: 0 auto;
+      height: 30px;
+      ul {
+        li {
+          float: left;
+          margin-right: 20px;
+          width: 220px;
+          height: 30px;
+          line-height: 30px;
+          text-align: center;
+          background-color: #fff;
+          font-weight: bold;
+        }
+      }
+    }
+    .mcont {
+      background-color: #fff;
+      padding-top: 50px;
+      .mpic {
+        padding-left: 100px;
+      }
+      .mtable {
+        form {
+          label {
+            display: block;
+            margin: 10px;
+            font-size: 14px;
+            input {
+              height: 32px;
+            }
+          }
+          .yhm {
+            width: 250px;
+          }
+          .mm {
+            width: 250px;
+          }
+          .yzm1 {
+            width: 100px;
+            margin-right: 10px;
+          }
+          .yzm2 {
+            width: 60px;
+          }
+          .moren {
+            font-size: 12px;
+            margin-top: 40px;
+            input {
+              height: 12px;
+            }
+          }
+          a {
+            color: blue;
+          }
+        }
+        .wailink {
+          font-size: 12px;
+          margin-top: 20px;
+          p {
+            margin-bottom: 20px;
+          }
+          a {
+            display: inline-block;
+            margin-left: 15px;
+            font-size: 24px;
+            color: blue;
+          }
+        }
+      }
+    }
+  }
+}
+#logo {
+  width: 100%;
+  background-color: #fff;
+  .container {
+    padding-top: 30px;
+    height: 110px;
+  }
+}
+#foot {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 50px;
+  .container {
+    height: 250px;
+    padding-top: 50px;
+    .commonfoot {
+      margin: 0 auto;
+      width: 320px;
+      height: 20px;
+      li {
+        float: left;
+        padding: 0 10px;
+        border-left: 1px solid #ccc;
+        a {
+          font-size: 12px;
+          display: block;
+        }
+      }
+      .fli {
+        border: 0;
+      }
+    }
+    p {
+      text-align: center;
+      margin: 10px;
+      font-size: 12px;
+    }
+    a {
+      img {
+        display: block;
+        margin: 10px auto;
+      }
+    }
+    .plast {
+      img {
+        display: inline;
+      }
+    }
+  }
+}

@@ -3,7 +3,7 @@
 }
 main .container{
 	padding-top: 20px;
-	height: 1260px;
+	overflow: hidden;
 }
 main .container .listleft{
 	width: 150px;
@@ -81,19 +81,20 @@ main .container .listright .listmenu .rightul{
 main .container .listright .listmenu .rightul li:first-child span{
 	color:orange;
 }
+
 main .container .listright .goodlist ul{
 	border: 1px solid #ccc;
 	border-top: 2px solid orange;
-
 	width: 100%;
-	height: 940px;
 	background-color: #fff;
+	overflow: hidden;
 
 }
 main .container .listright .goodlist ul li{
 	width: 25%;
 	padding: 10px;
 	float: left;
+	height: 300px;
 }
 main .container .listright .goodlist ul li img{
 	width: 100%;

@@ -28,15 +28,15 @@ require(['config'],function(){
 			$('#jrgwc').on('click',function(){
 				var $gwcnum=$('#sidebar').find('input');
 				// 改变购物车的数量
-				var nownum=Number($gwcnum.val());
+				var $nownum=Number($gwcnum.val());
 				var $buynum=Number($('#buynum').val());
-				$gwcnum.val(nownum+ $buynum);
-
+					$gwcnum.val($nownum+ $buynum);
+				var newNum=$gwcnum.val();
 				// 复制图片
 				var $cloneimg=$('<div/>');
 				$cloneimg.addClass('clonepic');
 				// console.log(goodsNum);
-				$cloneimg.append($('.smallpic img').clone())
+				$cloneimg.append($('.smallpic >img').clone())
 				$('.smallpic').append($cloneimg);
 
 				$cloneimg.stop(true);
@@ -47,31 +47,23 @@ require(['config'],function(){
 				},300,function(){
 					$cloneimg.remove();
 				})
-			})
 
+					// 写入cookie
 
-			// 写入cookie
-
-			// 获取需要元素
-			var $title=$('.contmd h3').html();
-			var $price=$('.contmd  span').html();
-				$price=Number($price);
-			var $goodimg=$('.contleft .bigpic img').attr('src');
-
-			
-
-			
-
-		var shoppingCar=$.cookie('shoppingCar');
-			shoppingCar=shoppingCar? JSON.parse(shoppingCar):[];
-
-			var $contont=$('.contont');
-			$('.contont').on('click',function(e){
-				var target=e.target;
+				// 获取需要元素
 
 				var $goodsNum=$('#sidebar').find('input').val();
 					$goodsNum=Number($goodsNum);
-				if(target.id==='jrgwc'){
+
+
+
+					var shoppingCar=$.cookie('shoppingCar');
+					shoppingCar=shoppingCar? JSON.parse(shoppingCar):[];
+
+						var $title=$('.contmd h3').html();
+						var $price=$('.contmd  span').html();
+					$price=Number($price);
+					var $goodimg=$('.contleft .bigpic img').attr('src');
 
 					// 判断是否存在当前商品
 					var hasGood=false;
@@ -80,11 +72,12 @@ require(['config'],function(){
 
 						hasGood=true;
 
-						shoppingCar[0].num++;
+						shoppingCar[0].num=newNum;
+						console.log(shoppingCar[0])
 					}
 
 
-					console.log($price,$title,$goodimg,$goodsNum);
+					// console.log($price,$title,$goodimg,$goodsNum);
 					if(!hasGood){
 						var goods={
 						img:$goodimg,
@@ -95,15 +88,15 @@ require(['config'],function(){
 						shoppingCar.push(goods);
 					}
 					$.cookie.raw = true;
+
 					$.cookie('shoppingCar',JSON.stringify(shoppingCar),{ expires: 7, path: '/' })
 					console.log($.cookie())
-				}
 
 			})
 
 
-
-
+			
+		
 		});
 		
 	});
