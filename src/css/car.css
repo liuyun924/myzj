@@ -21,68 +21,62 @@ main .container section{
 main .container section span{
 	display: inline-block;
 	font-size: 14px;
-	margin-right: 40px;
 }
 main .container section .goodstop{
 	background-color: #ccc;
 	padding: 10px 20px;
+	height: 60px;
 }
-main .container section .goodstop span:first-child{
+main .container section .goodstop ul li{
+	float: left;
+	margin-right: 50px;
+}
+main .container section .goodstop li:first-child{
 	font-size: 18px;
+	width: 400px;
 }
-main .container section .goodstop span:nth-child(2){
-	margin-right: 280px;
-	margin-left: -20px;
+main .container section .goodstop li:first-child span{
+margin-left: 10px;
 }
 
-main .container section .goods{
+main .container section .goods ul{
 	background-color: #fff;
+	padding: 10px 20px;
+	height: 60px;
 }
-main .container section .goods li{
-	padding: 10px 20px 0px 40px;
-	height: 70px;
-}
-main .container section .goods span:nth-child(1){
+main .container section .goods ul li{
 	float: left;
-}
-main .container section .goods span:nth-child(1) img{
-	 height: 50px;
-}
-main .container section .goods span:nth-child(2){
-float: left;
-margin-top: 10px;
-}
-main .container section .goods span:nth-child(3){
-float: right;margin-left: 30px;
-margin-top: 10px;
-
-}main .container section .goods span:nth-child(4){
-float: right;
-margin-left: 30px;
-margin-top: 10px;
-color: red;
-}main .container section .goods span:nth-child(5){
-float: right;
-font-weight: bold;
-border: 1px solid #ccc;margin-left: 30px;
-margin-top: 10px;
-
-}
-main .container section .goods span:nth-child(6){
-float: right;margin-left: 30px;
-margin-top: 10px;
-}
-main .container section .goods span i{
-	font-style: normal;
-	display: inline-block;
-	border: 1px solid #ccc;
-	width: 15px;
+	width: 100px;
 	text-align: center;
-	float: left;
+	margin-left: 10px;
 }
-main .container section .goods span i:last-child{
-	float: right;
+main .container section .goods li:first-child{
+	font-size: 18px;
+	width: 420px;
+	text-align: left;
 }
+
+main .container section .goods li:first-child img{
+	width: 40px;
+}
+main .container section .goods li:first-child span{
+	margin-left: 20px;
+}
+main .container section .goods li input{
+	display: inline-block;
+	width: 40px;
+	text-align: center;
+}
+main .container section .goods li:nth-child(3) span{
+	width: 20px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+main .container section .goods li:nth-child(4){
+	color: orange;
+}
+
+
 
 main .container section .goodsbottom{
 	padding-left: 600px;
